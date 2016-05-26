@@ -1,7 +1,5 @@
 # Введение в машинное обучение
 
-:small_orange_diamond: Для обсуждения ML и общения на разные темы была создана [конференция в Slack](machinelearning2016.slack.com). Чтобы присоединиться, заполните форму по [ссылке](https://mlinvite.herokuapp.com/). Нас уже **более 900**!
-
 #### Оглавление
 
 * :books: [Библиотека ML-специалиста](#Библиотека-ml-специалиста),
@@ -19,6 +17,7 @@
 * [100+ Free Data Science Books](http://www.learndatasci.com/free-books/) – более 100 бесплатных книг по Data Science;
 * [100 репозиториев по машинному обучению](http://meta-guide.com/software-meta-guide/100-best-github-machine-learning);
 * [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning);
+* [Доска](https://trello.com/b/rbpEfMld/data-science) по data science в Trello — проверенные материалы, организованные по темам (expertise tracks, языки программирования, различные инструменты);
 * [Блоги по датасаенс-тематике](https://github.com/rushter/data-science-blogs);
 * [People tweeting about ML and AI](http://blog.talla.com/2016/02/people-tweeting-about-machine-learning-and-ai/) — на кого подписаться в Твиттере;
 * [Machine Learning Resource Guide](https://www.dropbox.com/s/z4f9oer4nkyu9tf/MachineLearningResourceGuide.pdf);
@@ -34,13 +33,13 @@
 
 <p style="text-align: center;"><a href="https://gist.github.com/demidovakatya/873e4dd6f1c6652ac842">Литература для поступления в ШАД</a> :small_orange_diamond: <a href="https://github.com/demidovakatya/mashinnoye-obucheniye/tree/master/mathematics-and-python">Рекомендации от преподавателей курса «Математика и Python»</a> :small_orange_diamond: <a href="https://bookmate.com/bookshelves/Nggk0rBi">Подборка научпоп-книг</a></p>
 
+* [Applied Predictive Modeling](http://www.springer.com/us/book/9781461468486) – M. Kuhn, K. Johnson (2013);
 * [Bayesian Reasoning and Machine Learning](http://web4.cs.ucl.ac.uk/staff/D.Barber/textbook/181115.pdf) - D.Barber (2015);
 * [Core Concepts in Data Analysis: Summarization, Correlation and Visualization](http://www.springer.com/us/book/9780857292865) - Boris Mirkin;
 * [A Course in Machine Learning](http://www.e-booksdirectory.com/details.php?ebook=9395) - Hal Daumé III;
 * [Data Mining: Concepts and Techniques](http://www.sciencedirect.com/science/book/9780123814791) - Jiawei Han et. al.;
 * [Data Mining and Analysis. Fundamental Concepts and Algorithms](http://www.cs.rpi.edu/~zaki/PaperDir/DMABOOK.pdf) - M.J.Zaki, W.Meira Jr (2014);
 * [Data Science For Dummies](https://www.geekbooks.me/book/view/data-science-for-dummies) – Lillian Pierson (2015);
-* [Deep Learning](http://www.deeplearningbook.org/version-2016-03-08/index.html) - Ian Goodfellow, Yoshua Bengio and Aaron Courville (в процессе);
 * [Doing Data Science](http://shop.oreilly.com/product/0636920028529.do);
 * [Frequent Pattern Mining](https://mail.google.com/mail/u/1/#inbox/1536859aae027538) - Charu C Aggarwal, Jiawei Han (eds.); 
 * [Gaussian Processes for Machine Learning](http://www.e-booksdirectory.com/details.php?ebook=1774) - Carl E. Rasmussen, Christopher K. I. Williams;
@@ -59,7 +58,8 @@
 * [Reinforcement Learning: An Introduction](http://www.e-booksdirectory.com/details.php?ebook=1825) - Richard S. Sutton, Andrew G. Barto;
 * [Understanding Machine Learning: From Theory to Algorithms](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/copy.html);
 * [Анализ больших наборов данных](http://dmkpress.com/catalog/computer/data/978-5-97060-190-7/) - перевод [Mining Massive Datasets](http://www.mmds.org/) - Jure Leskovec, Anand Rajaraman, Jeff Ullman;
-* [Машинное обучение](https://www.dropbox.com/s/wkmoxtq0egzcoxc/Flach_P_Machine_Learning_RU.pdf) — Петер Флах.
+* [Машинное обучение](https://www.dropbox.com/s/wkmoxtq0egzcoxc/Flach_P_Machine_Learning_RU.pdf) — Петер Флах;
+* [Построение систем машинного обучения](https://vk.com/doc190970339_437111950) — Л. П. Коэльо, В. Ричарт (2016).
 
 ----------------------------------------------------
 
@@ -70,7 +70,7 @@
 * [Статистика и теория вероятностей](/probability-statistics.md)
 * [Линейная алгебра](/linalg.md)
 * Алгоритмы (в работе)
-* Нейронные сети, глубинное обучение, NLP (в работе)
+* [Нейронные сети, глубинное обучение, NLP, AI](/neural-nets.md)
 * [Python, IPython, Scikit-learn etc](/python.md)
 * [Code editors](/code-editors.md)
 * [LaTeX](/latex.md)
@@ -113,13 +113,14 @@
 
 #### Метод опорных векторов (SVM)
 
- * [Вывод SVM](http://cs229.stanford.edu/notes/cs229-notes3.pdf) - Заметки оригинального стэнфордского курса Andrew Ng
+ * [Вывод SVM](http://cs229.stanford.edu/notes/cs229-notes3.pdf) - Заметки оригинального стэнфордского курса Andrew Ng;
  * [Метод опорных векторов](http://statistica.ru/local-portals/data-mining/metod-opornykh-vektorov/).
 
 #### Нейронные сети
 
 * [Лекции по искусственным нейронным сетям](http://www.ccas.ru/voron/download/NeuralNets.pdf) — К. В. Воронцов;
-* [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/index.html) – бесплатная онлайн-книга.
+* [Deep Learning](http://www.deeplearningbook.org) - Ian Goodfellow, Yoshua Bengio, and Aaron Courville (2016);
+* [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/index.html) – ещё одна бесплатная онлайн-книга.
 
 ----------------------------------------------------
 
@@ -138,6 +139,7 @@
   * [Теория вероятностей для начинающих](https://www.coursera.org/learn/probability-theory-basics/home/info), а также [на OpenEdu](https://openedu.ru/course/mipt/PROBTH/) — курс от МФТИ, ведёт Райгородский А.М.;
   * [Линейная алгебра](https://www.coursera.org/course/linalg) от ВШЭ. Курс линейной алгебры для нематематических факультетов, подходит «для быстрого старта»;
   * [Эконометрика](https://www.coursera.org/learn/ekonometrika/) (Econometrics) — 10-недельный курс от ВШЭ;
+  * [Customer Analytics](https://www.coursera.org/learn/wharton-customer-analytics) – курс о практическом применении статистики и анализа данных. Для людей, разочаровавшихся в DS и не понимающих, на кой это всё;
   * [Social Network Analysis](https://www.coursera.org/course/sna) от University of Michigan;
   * [Social and Economic Networks: Models and Analysis](https://www.coursera.org/course/networksonline) от Stanford University;
   * [Introduction to Recommender Systems](https://www.coursera.org/learn/recommender-systems) – восьминедельный курс по рекомендательным системам от университета Миннесоты;
@@ -148,9 +150,10 @@
   * [Intro to Machine Learning](https://www.udacity.com/courses/ud120) — this will teach you the end-to-end process of investigating data through a machine learning lens;
   * [Intro to Descriptive Statistics](https://www.udacity.com/courses/ud827) – подробный курс для новичков;
 * Edx:
+  * [Data Science and Engineering with Spark](https://www.edx.org/xseries/data-science-engineering-spark#courses);
   * [Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-3);
   * [MITx: 6.041x Introduction to Probability - The Science of Uncertainty](https://www.edx.org/course/introduction-probability-science-mitx-6-041x-1);
-  * [The Analytics Edge](https://www.edx.org/course/analytics-edge-mitx-15-071x-0);
+  * [The Analytics Edge](https://www.edx.org/course/analytics-edge-mitx-15-071x-2);
 * [Learning from Data](https://work.caltech.edu/telecourse.html) – введение в машинное обучение (основная теория, алгоритмы и области практического применения);
 * [Видеозаписи лекций Школы Анализа Данных](https://yandexdataschool.ru/edu-process/courses);
 * [Intro to Python for Data Science](https://www.datacamp.com/courses/intro-to-python-for-data-science) – основы Python и немного про NumPy;
